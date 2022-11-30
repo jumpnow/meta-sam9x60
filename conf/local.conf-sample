@@ -1,0 +1,31 @@
+# Local configuration for meta-sam9x60 images
+# Yocto Project 4.0 Poky distribution [kirkstone] branch
+# This is a systemd system
+
+BBMASK += "recipes-security/optee"
+
+LICENSE_FLAGS_ACCEPTED = "commercial"
+
+DISTRO_FEATURES = "ext2 systemd security usbhost ${DISTRO_FEATURES_LIBC}"
+
+DISTRO_FEATURES_BACKFILL_CONSIDERED = "pulseaudio sysvinit"
+
+INIT_MANAGER = "systemd"
+
+MACHINE = "sam9x60ek-sd"
+
+#DL_DIR = "/src/oe"
+#SSTATE_DIR = "/oe8/sam9x60/sstate-cache"
+#TMPDIR = "/oe8/sam9x60/tmp"
+
+DISTRO = "poky"
+PACKAGE_CLASSES = "package_ipk"
+
+SDKMACHINE = "x86_64"
+
+EXTRA_IMAGE_FEATURES = "debug-tweaks"
+
+PATCHRESOLVE = "noop"
+RM_OLD_IMAGE = "1"
+INHERIT += "rm_work"
+CONF_VERSION = "2"

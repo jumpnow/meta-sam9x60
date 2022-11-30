@@ -1,0 +1,18 @@
+# POKY_BBLAYERS_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+POKY_BBLAYERS_CONF_VERSION = "2"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  ${HOME}/poky-kirkstone/meta \
+  ${HOME}/poky-kirkstone/meta-poky \
+  ${HOME}/poky-kirkstone/meta-openembedded/meta-oe \
+  ${HOME}/poky-kirkstone/meta-openembedded/meta-networking \
+  ${HOME}/poky-kirkstone/meta-openembedded/meta-perl \
+  ${HOME}/poky-kirkstone/meta-openembedded/meta-python \
+  ${HOME}/poky-kirkstone/meta-security \
+  ${HOME}/poky-kirkstone/meta-atmel \
+  ${HOME}/sam9x60/meta-sam9x60 \
+"
