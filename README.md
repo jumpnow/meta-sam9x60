@@ -14,9 +14,9 @@ This layer depends on:
 
 Latest commits:
 
-    poky 407c3e0237
-    meta-openembedded 571e36e20
+    poky 4cc0e9438b
+    meta-openembedded df452d9d9
     meta-security cc20e2a
-    meta-atmel 772408b
+    meta-atmel 0e9cebf
 
 meta-sam9x60 layer maintainer: Scott Ellis <scott@jumpnowtek.com>
