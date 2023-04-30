@@ -6,13 +6,13 @@ BBPATH = "${TOPDIR}"
 BBFILES ?= ""
 
 BBLAYERS ?= " \
-  ${HOME}/poky-kirkstone/meta \
-  ${HOME}/poky-kirkstone/meta-poky \
-  ${HOME}/poky-kirkstone/meta-openembedded/meta-oe \
-  ${HOME}/poky-kirkstone/meta-openembedded/meta-networking \
-  ${HOME}/poky-kirkstone/meta-openembedded/meta-perl \
-  ${HOME}/poky-kirkstone/meta-openembedded/meta-python \
-  ${HOME}/poky-kirkstone/meta-security \
-  ${HOME}/poky-kirkstone/meta-atmel \
+  ${HOME}/poky-mickledore/meta \
+  ${HOME}/poky-mickledore/meta-poky \
+  ${HOME}/poky-mickledore/meta-openembedded/meta-oe \
+  ${HOME}/poky-mickledore/meta-openembedded/meta-networking \
+  ${HOME}/poky-mickledore/meta-openembedded/meta-perl \
+  ${HOME}/poky-mickledore/meta-openembedded/meta-python \
+  ${HOME}/poky-mickledore/meta-security \
+  ${HOME}/poky-mickledore/meta-atmel \
   ${HOME}/sam9x60/meta-sam9x60 \
 "

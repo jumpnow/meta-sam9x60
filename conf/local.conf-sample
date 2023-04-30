@@ -1,5 +1,5 @@
 # Local configuration for meta-sam9x60 images
-# Yocto Project 4.0 Poky distribution [kirkstone] branch
+# Yocto Project 4.2 Poky distribution [mickeldore] branch
 # This is a systemd system
 
 BBMASK += "recipes-security/optee"
@@ -14,9 +14,9 @@ INIT_MANAGER = "systemd"
 
 MACHINE = "sam9x60ek-sd"
 
-#DL_DIR = "/src/oe"
-#SSTATE_DIR = "/oe8/sam9x60/sstate-cache"
-#TMPDIR = "/oe8/sam9x60/tmp"
+#DL_DIR = "/src/mickledore"
+#SSTATE_DIR = "/oe2/sam9x60/sstate-cache"
+#TMPDIR = "/oe2/sam9x60/tmp"
 
 DISTRO = "poky"
 PACKAGE_CLASSES = "package_ipk"
