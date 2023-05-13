@@ -15,9 +15,9 @@ Note: no mickledore branch yet
 
 Latest commits:
 
-    poky 878271e1a1
-    meta-openembedded 2d89a469e
-    meta-security 53c5cc7
+    poky 30d015c636
+    meta-openembedded 54b177f4a
+    meta-security d7db0a3
     meta-atmel 10c99da
 
 meta-sam9x60 layer maintainer: Scott Ellis <scott@jumpnowtek.com>
