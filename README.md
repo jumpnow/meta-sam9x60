@@ -15,8 +15,8 @@ Note: no mickledore branch yet
 
 Latest commits:
 
-    poky 30d015c636
-    meta-openembedded 54b177f4a
+    poky c5c69f78fc
+    meta-openembedded c032fd0b1
     meta-security d7db0a3
     meta-atmel 10c99da
 
