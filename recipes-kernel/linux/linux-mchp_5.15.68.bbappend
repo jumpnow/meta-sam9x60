@@ -1,4 +1,4 @@
-FILESEXTRAPATHS:prepend := "${THISDIR}/linux-mchp:"
+FILESEXTRAPATHS:prepend := "${THISDIR}/linux-mchp-5.15.68:"
 
 SRC_URI:append:sam9x60 = "\
     file://ikconfig.cfg \
