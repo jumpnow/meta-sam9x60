@@ -25,6 +25,7 @@ EXTRA_TOOLS = " \
     file \
     findutils \
     grep \
+    htop \
     i2c-tools \
     ifupdown \
     iperf3 \
