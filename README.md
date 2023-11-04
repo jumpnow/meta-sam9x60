@@ -19,5 +19,3 @@ Latest commits:
     meta-openembedded 399688371
     meta-security d7db0a3
     meta-atmel 10c99da
-
-meta-sam9x60 layer maintainer: Scott Ellis <scott@jumpnowtek.com>
