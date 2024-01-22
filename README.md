@@ -1,21 +1,25 @@
 This layer depends on:
 
     URI: git://git.yoctoproject.org/poky.git
-    branch: mickledore
+    branch: nanbield
 
     URI: git://git.openembedded.org/meta-openembedded
-    branch: mickledore
+    branch: nanbield
 
     URI: git://git.yoctoproject.org/meta-security.git
-    branch: mickledore
+    branch: nanbield
 
-Note: no mickledore branch yet
+    URI: https://git.yoctoproject.org/meta-arm
+    branch: nanbield
+
+Note: no nanbield branch
     URI: https://github.com/linux4sam/meta-atmel.git
     branch: master
 
 Latest commits:
 
-    poky 7235399a86
-    meta-openembedded 8e1f0fa6b
-    meta-security d7db0a3
-    meta-atmel 10c99da
+    poky dbc8727bea
+    meta-openembedded 2da6e1b0e
+    meta-security 5938fa5
+    meta-arm 79157792
+    meta-atmel bb68101
