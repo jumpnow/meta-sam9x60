@@ -18,8 +18,8 @@ Note: no nanbield branch
 
 Latest commits:
 
-    poky dbc8727bea
-    meta-openembedded 2da6e1b0e
+    poky d3b27346c3
+    meta-openembedded da9063bdf
     meta-security 5938fa5
-    meta-arm 79157792
+    meta-arm 6bfd0242
     meta-atmel bb68101
