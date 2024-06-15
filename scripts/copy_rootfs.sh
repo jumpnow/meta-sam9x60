@@ -68,16 +68,16 @@ fi
 
 echo "HOSTNAME: $target_hostname"
 
-if [ -f "${srcdir}/${image}-image-${MACHINE}.tar.gz" ]; then
-    rootfs=${srcdir}/${image}-image-${MACHINE}.tar.gz
-elif [ -f "${srcdir}/${image}-${MACHINE}.tar.gz" ]; then
-    rootfs=${srcdir}/${image}-${MACHINE}.tar.gz
+if [ -f "${srcdir}/${image}-image-${MACHINE}.rootfs.tar.gz" ]; then
+    rootfs=${srcdir}/${image}-image-${MACHINE}.rootfs.tar.gz
+elif [ -f "${srcdir}/${image}-${MACHINE}.rootfs.tar.gz" ]; then
+    rootfs=${srcdir}/${image}-${MACHINE}.rootfs.tar.gz
 elif [ -f "${srcdir}/${image}" ]; then
     rootfs=${srcdir}/${image}
 else
     echo "Rootfs file not found. Tried"
-    echo " ${srcdir}/${image}-image-${MACHINE}.tar.gz"
-    echo " ${srcdir}/${image}-${MACHINE}.tar.gz"
+    echo " ${srcdir}/${image}-image-${MACHINE}.rootfs.tar.gz"
+    echo " ${srcdir}/${image}-${MACHINE}.rootfs.tar.gz"
     echo " ${srcdir}/${image}"
     exit 1
 fi
