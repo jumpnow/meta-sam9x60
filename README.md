@@ -1,25 +1,24 @@
 This layer depends on:
 
     URI: git://git.yoctoproject.org/poky.git
-    branch: nanbield
+    branch: scarthgap
 
     URI: git://git.openembedded.org/meta-openembedded
-    branch: nanbield
+    branch: scarthgap
 
     URI: git://git.yoctoproject.org/meta-security.git
-    branch: nanbield
+    branch: scarthgap
 
     URI: https://git.yoctoproject.org/meta-arm
-    branch: nanbield
+    branch: scarthgap
 
-Note: no nanbield branch
     URI: https://github.com/linux4sam/meta-atmel.git
-    branch: master
+    branch: scarthgap
 
 Latest commits:
 
-    poky 7b8aa378d0
-    meta-openembedded da9063bdf
-    meta-security 5938fa5
-    meta-arm 150169d0
+    poky 0b37512fb4
+    meta-openembedded 64c481d01
+    meta-security 11ea911
+    meta-arm 38bce82e
     meta-atmel bb68101

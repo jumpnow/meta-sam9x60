@@ -1,8 +1,7 @@
 # Local configuration for meta-sam9x60 images
-# Yocto Project 4.3 Poky distribution [nanbield] branch
-# This is a systemd system
+# Yocto Project 5.0 Poky distribution [scarthgap] branch
 
-BBMASK += "recipes-security/optee"
+# BBMASK += "recipes-security/optee"
 
 LICENSE_FLAGS_ACCEPTED = "commercial"
 
@@ -14,7 +13,7 @@ INIT_MANAGER = "systemd"
 
 MACHINE = "sam9x60ek-sd"
 
-#DL_DIR = "/src/nanbield"
+#DL_DIR = "/src/scarthgap"
 #SSTATE_DIR = "/oe2/sam9x60/sstate-cache"
 #TMPDIR = "/oe2/sam9x60/tmp"
 
