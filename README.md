@@ -19,6 +19,6 @@ Latest commits:
 
     poky 703740d19f
     meta-openembedded 1235dd4ed
-    meta-security 2d5aaeb
+    meta-security 459d837
     meta-arm 313ad2a0
     meta-atmel 8e6b116
