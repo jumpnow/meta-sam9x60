@@ -11,8 +11,10 @@ BBLAYERS ?= " \
   ${HOME}/poky-scarthgap/meta-openembedded/meta-oe \
   ${HOME}/poky-scarthgap/meta-openembedded/meta-networking \
   ${HOME}/poky-scarthgap/meta-openembedded/meta-python \
+  ${HOME}/poky-scarthgap/meta-openembedded/meta-webserver \
   ${HOME}/poky-scarthgap/meta-security \
-  ${HOME}/poky-scarthgap/meta-arm \
+  ${HOME}/poky-scarthgap/meta-arm/meta-arm \
+  ${HOME}/poky-scarthgap/meta-arm/meta-arm-toolchain \
   ${HOME}/poky-scarthgap/meta-atmel \
   ${HOME}/sam9x60/meta-sam9x60 \
 "
