@@ -21,4 +21,4 @@ Latest commits:
     meta-openembedded 67ad83dd7c
     meta-security bc865c5
     meta-arm f3640941
-    meta-atmel 214b826
+    meta-atmel f54c1bc
